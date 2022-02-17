@@ -8,7 +8,6 @@ const app = new Vue (
             
             mails : [],
 
-            show: false,
         },
 
         methods: {
@@ -29,12 +28,6 @@ const app = new Vue (
 
             };
 
-            // Mostro le dieci email solo dopo la loro creazione
-            setTimeout(() => {
-                
-                this.show = true;
-
-            }, 1000);
         }
 
     }
